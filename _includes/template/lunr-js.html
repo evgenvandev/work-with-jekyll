@@ -1,8 +1,19 @@
 <script src="{{ '/assets/lib/lunr.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/lunr-store.js' | relative_url }}"></script>
+<script src="{{ '/assets/lib/lunr.stemmer.support.js' | relative_url }}"></script>
+<script src="{{ '/assets/lib/lunr.ru.js' | relative_url }}"></script>
+<script src="{{ '/assets/lib/lunr.multi.js' | relative_url }}"></script>
 <script>
 /* initialize lunr */
 var idx = lunr(function () {
+  // use the language (ru)
+  // использовать язык (ru)
+  //this.use(lunr.ru)
+  // the reason "en" does not appear above is that "en" is built in into lunr js
+  // причина, по которой "en" не отображается выше, заключается в том, что "en" встроен в lunr js.
+  this.use(lunr.multiLanguage('en', 'ru'))
+  // then, the normal lunr index initialization
+  // затем, обычная инициализация индекса lunr
   this.ref('id')
   this.field('title')
   this.field('text')

@@ -1,14 +1,16 @@
 ---
 section_id: Get Started
 nav_order: 2
-title: Prep
+title: Подготовка
 topics: GitHub; Optional Software
 ---
 
-To create your own materials using Lesson Template, please create a free [GitHub account](https://github.com/join) if you do not have one already.
-Basic familiarity with the GitHub web interface will be helpful.
+Чтобы создавать свои собственные материалы с помощью шаблона урока, создайте бесплатную учётную запись в [GitHub](https://github.com/join), если у вас её ещё нет.
+Базовое знакомство с веб-интерфейсом GitHub будет полезным.
 
 For a quick introduction check out GitHub's [Hello World guide](https://guides.github.com/activities/hello-world/), or the extensive [GitHub Learning Lab](https://lab.github.com/).
+
+Для краткого ознакомления ознакомьтесь с руководством GitHub Hello World или обширной учебной лабораторией GitHub.
 
 It is possible to create a website with this template using only GitHub's web interface--in fact, it works great!
 (Tip: you can click `.` on any GitHub repository to open the builtin fully featured [web editor](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor) to work on your project.)
